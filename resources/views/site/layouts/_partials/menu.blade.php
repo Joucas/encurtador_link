@@ -3,21 +3,21 @@
         <a href="{{ route('site.principal') }}">Principal</a>
     </li>
     <li>
-        <a href="{{ route('site.sobrenos') }}">Sobre Nós</a>
-    </li>
-    <li>
         <a href="{{ route('site.contato') }}">Contato</a>
     </li>
     <li>
-        <a href="{{ route('app.clientes') }}">Clientes</a>
+        <a href="{{ route('site.register') }}">Register</a>
     </li>
     <li>
-        <a href="{{ route('app.produtos') }}">Produtos</a>
-    </li>
-    <li>
-        <a href="{{ route('app.fornecedores') }}">fornecedores</a>
+        <a href="{{ route('site.recover') }}">Recover</a>
     </li>
     <li>
         <a href="{{ route('site.login') }}">Login</a>
+    </li>
+    <li>
+        <a href="{{ route('app.generate') }}">Generate</a>
+    </li>
+    <li>
+        <a href="{{ route('app.list') }}">List</a>
     </li>
 </ul>

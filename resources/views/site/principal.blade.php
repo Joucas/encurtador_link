@@ -4,8 +4,14 @@
 
 @section('conteudo')
     @include('site.layouts._partials.menu')
-    <h1>Principal</h1>
+    <h1>Index</h1>
 
-    @component('site.layouts._components.form_contato')
-    @endcomponent()
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-6">
+                @component('site.layouts._components.form_contato')
+                @endcomponent()
+            </div>
+        </div>
+    </div>
 @endsection
